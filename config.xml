@@ -1,0 +1,90 @@
+<execsql>
+
+  <exec name="Test Temp DB Creates" source="Data Source=localhost;Initial Catalog=TempDB;Trusted_Connection=True;">
+    <item>CREATE TABLE TableA ( Col1 int, Col2 varchar(10) )</item>
+    <item>CREATE TABLE TableB ( Col1 int, Col2 varchar(10) )</item>
+    <item>CREATE TABLE TableC ( Col1 int, Col2 varchar(10) )</item>
+    <item>CREATE TABLE TableD ( Col1 int, Col2 varchar(10) )</item>
+    <item>CREATE TABLE TableE ( Col1 int, Col2 varchar(10) )</item>
+    <item>CREATE TABLE TableF ( Col1 int, Col2 varchar(10) )</item>
+    <item>CREATE TABLE TableG ( Col1 int, Col2 varchar(10) )</item>
+    <item>CREATE TABLE TableH ( Col1 int, Col2 varchar(10) )</item>
+    <item>CREATE TABLE TableI ( Col1 int, Col2 varchar(10) )</item>
+    <item>CREATE TABLE TableJ ( Col1 int, Col2 varchar(10) )</item>
+    <item>CREATE TABLE TableK ( Col1 int, Col2 varchar(10) )</item>
+    <item>CREATE TABLE TableL ( Col1 int, Col2 varchar(10) )</item>
+    <item>CREATE TABLE TableM ( Col1 int, Col2 varchar(10) )</item>
+    <item>CREATE TABLE TableN ( Col1 int, Col2 varchar(10) )</item>
+    <item>CREATE TABLE TableO ( Col1 int, Col2 varchar(10) )</item>
+    <item>CREATE TABLE TableP ( Col1 int, Col2 varchar(10) )</item>
+    <item>CREATE TABLE TableQ ( Col1 int, Col2 varchar(10) )</item>
+    <item>CREATE TABLE TableR ( Col1 int, Col2 varchar(10) )</item>
+    <item>CREATE TABLE TableS ( Col1 int, Col2 varchar(10) )</item>
+    <item>CREATE TABLE TableT ( Col1 int, Col2 varchar(10) )</item>
+    <item>CREATE TABLE TableU ( Col1 int, Col2 varchar(10) )</item>
+    <item>CREATE TABLE TableV ( Col1 int, Col2 varchar(10) )</item>
+    <item>CREATE TABLE TableW ( Col1 int, Col2 varchar(10) )</item>
+    <item>CREATE TABLE TableX ( Col1 int, Col2 varchar(10) )</item>
+    <item>CREATE TABLE TableY ( Col1 int, Col2 varchar(10) )</item>
+    <item>CREATE TABLE Tablez ( Col1 int, Col2 varchar(10) )</item>
+  </exec>
+
+  <exec name="Test Temp DB Updates" source="Data Source=localhost;Initial Catalog=TempDB;Trusted_Connection=True;">
+    <item>INSERT TableA VALUES (1, 'a')</item>
+    <item>INSERT TableB VALUES (1, 'b')</item>
+    <item>INSERT TableC VALUES (1, 'c')</item>
+    <item>INSERT TableD VALUES (1, 'd')</item>
+    <item>INSERT TableE VALUES (1, 'e')</item>
+    <item>INSERT TableF VALUES (1, 'f')</item>
+    <item>INSERT TableG VALUES (1, 'g')</item>
+    <item>INSERT TableH VALUES (1, 'h')</item>
+    <item>INSERT TableI VALUES (1, 'i')</item>
+    <item>INSERT TableJ VALUES (1, 'j')</item>
+    <item>INSERT TableK VALUES (1, 'k')</item>
+    <item>INSERT TableL VALUES (1, 'l')</item>
+    <item>INSERT TableM VALUES (1, 'm')</item>
+    <item>INSERT TableN VALUES (1, 'n')</item>
+    <item>INSERT TableO VALUES (1, 'o')</item>
+    <item>INSERT TableP VALUES (1, 'p')</item>
+    <item>INSERT TableQ VALUES (1, 'q')</item>
+    <item>INSERT TableR VALUES (1, 'r')</item>
+    <item>INSERT TableS VALUES (1, 's')</item>
+    <item>INSERT TableT VALUES (1, 't')</item>
+    <item>INSERT TableU VALUES (1, 'u')</item>
+    <item>INSERT TableV VALUES (1, 'v')</item>
+    <item>INSERT TableW VALUES (1, 'w')</item>
+    <item>INSERT TableX VALUES (1, 'x')</item>
+    <item>INSERT TableY VALUES (1, 'y')</item>
+    <item>INSERT Tablez VALUES (1, 'z')</item>
+  </exec>
+
+  <exec name="Test Temp DB Drops" source="Data Source=localhost;Initial Catalog=TempDB;Trusted_Connection=True;">
+    <item>DROP TABLE TableA</item>
+    <item>DROP TABLE TableB</item>
+    <item>DROP TABLE TableC</item>
+    <item>DROP TABLE TableD</item>
+    <item>DROP TABLE TableE</item>
+    <item>DROP TABLE TableF</item>
+    <item>DROP TABLE TableG</item>
+    <item>DROP TABLE TableH</item>
+    <item>DROP TABLE TableI</item>
+    <item>DROP TABLE TableJ</item>
+    <item>DROP TABLE TableK</item>
+    <item>DROP TABLE TableL</item>
+    <item>DROP TABLE TableM</item>
+    <item>DROP TABLE TableN</item>
+    <item>DROP TABLE TableO</item>
+    <item>DROP TABLE TableP</item>
+    <item>DROP TABLE TableQ</item>
+    <item>DROP TABLE TableR</item>
+    <item>DROP TABLE TableS</item>
+    <item>DROP TABLE TableT</item>
+    <item>DROP TABLE TableU</item>
+    <item>DROP TABLE TableV</item>
+    <item>DROP TABLE TableW</item>
+    <item>DROP TABLE TableX</item>
+    <item>DROP TABLE TableY</item>
+    <item>DROP TABLE Tablez</item>
+  </exec>
+
+</execsql>
